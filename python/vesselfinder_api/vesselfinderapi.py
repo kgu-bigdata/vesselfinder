@@ -1,5 +1,6 @@
 import requests
-from vesselfinder_api.exceptions import ApiErrorException, ApiRequestErrorException, ApiInvalidArgumentsException
+#from vesselfinder_api.exceptions import ApiErrorException, ApiRequestErrorException, ApiInvalidArgumentsException
+from exceptions import ApiErrorException, ApiRequestErrorException, ApiInvalidArgumentsException
 from datetime import datetime
 
 
